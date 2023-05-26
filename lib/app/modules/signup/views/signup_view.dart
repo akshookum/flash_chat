@@ -30,7 +30,7 @@ class SignupView extends GetView<SignupController> {
                   controller.mame.value = vale;
                 },
                 decoration: registerDecoration.copyWith(
-                  helperText: 'Name',
+                  hintText: 'Name',
                   prefixIcon: const Icon(Icons.person),
                 ),
               ),
