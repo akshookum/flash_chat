@@ -11,6 +11,7 @@ dependencies:
   get: 4.6.5
   #firebase
   firebase_auth: ^4.6.1
+  cloud_firestore: ^4.8.0
   flutter:
     sdk: flutter
 

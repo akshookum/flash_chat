@@ -6,8 +6,9 @@ import 'package:get/get.dart';
 
 import '../controllers/signup_controller.dart';
 
-class SignupView extends GetView<SignupController> {
-  const SignupView({Key? key}) : super(key: key);
+class SignupView extends StatelessWidget {
+  SignupView({Key? key}) : super(key: key);
+  SignupController controller = Get.put<SignupController>(SignupController());
 
   @override
   Widget build(BuildContext context) {

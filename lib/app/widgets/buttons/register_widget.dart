@@ -18,7 +18,7 @@ class RegisterWidget extends StatelessWidget {
             color: Colors.blue, borderRadius: BorderRadius.circular(30)),
         child: Center(
           child: Text(
-            'Enter',
+            'Sign Up',
             style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
           ),
         ),
